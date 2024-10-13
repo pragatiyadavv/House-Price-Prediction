@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 import numpy as np
 
 # Step 1: Load Data
-file_path = r'C:\Users\praga\Downloads\House Price.csv'  # Update the file path as necessary
+file_path = r'\House Price.csv'  # Update the file path as necessary
 df = pd.read_csv(file_path)
 
 # Debugging: Check the loaded data
